@@ -1,0 +1,29 @@
+/*let score = "33abc"
+
+console.log(typeof score);
+console.log(typeof(score));
+
+//conversion 
+let valueInNumner =Number(score)
+console.log(typeof valueInNumner);
+console.log(valueInNumner);
+*/
+let score = true
+
+//console.log(typeof score);
+//console.log(typeof(score));
+
+//conversion 
+let valueInNumner =Number(score)
+//console.log(typeof valueInNumner);
+//console.log(valueInNumner);
+
+
+// "33"=33
+//"33abc"=>NaN
+//true+> 1;
+
+
+let isLoggodIn = 1
+let booleanIsLoggedIn =Boolean(isLoggodIn)
+console.log(booleanIsLoggedIn);
