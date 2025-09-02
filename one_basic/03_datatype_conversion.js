@@ -26,4 +26,16 @@ let valueInNumner =Number(score)
 
 let isLoggodIn = 1
 let booleanIsLoggedIn =Boolean(isLoggodIn)
-console.log(booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
+
+let value = 3
+let negValue = -value
+//console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/2);
+// console.log(2%2);
+
