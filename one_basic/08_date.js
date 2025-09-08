@@ -22,22 +22,9 @@ let myDate = new Date()//instance
 // let myCreatedDAtereatedDAte =new Date ("2025-01-12")
 // console.log(myCreatedDAte.toLocaleString());
 
-// let myTimeStamp =Date.now()
+let myTimeStamp =Date.now()
 
-// console.log(myTimeStamp);
-
-
-// console.log(myCreatedDAte.getTime());
-
-let newDate =new Date()
-console.log(newDate);
-console.log(newDate.getMonth() + 1);
-console.log(newDate.getDay() + 1);
+console.log(myTimeStamp);
 
 
-
-newDate.toLocaleString('defalt',
-    {
-        weekday: "narrow"
-    }
-)
+console.log(myCreatedDAte.getTime());
