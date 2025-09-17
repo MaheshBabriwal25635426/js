@@ -42,4 +42,57 @@ function addTwoNumbers(number1, number2){
 
 const result = addTwoNumbers(3, 5)
 
-// console.log("Result: ", result);
+// console.log("Result: ", result); 
+
+
+// function loginuserMessage(username ){
+//     return `${username} just logged in`
+// }
+
+// console.log( loginuserMessage("hitesh"));
+
+
+function loginUserMessage(username ){
+    if(username === undefined){
+        console.log("PLease enter a username");
+        return
+    }
+    return `${username} just logged in`
+}
+//  console.log( loginUserMessage());
+
+
+
+
+function calculateCartPrice(...num1 ){ //(...rest oprator)... 3 dot ka mtlb he vo jobhi enetity rahegi use print kar dega 
+    return num1
+}
+// console.log(calculateCartPrice (200,300,400,500));
+
+
+const user ={
+    username :"mahesh",
+    cprice : 177
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and cprice is ${anyobject.cprice}`);
+    
+}
+//  handleObject(user)
+
+ handleObject({
+    username : "Sam",
+   
+    cprice :299
+ })
+
+
+ const myNewArray =[200,300,400,500]
+
+ function returnSecondValue(getArray){
+    return getArray[2]
+ }
+
+ console.log(returnSecondValue([200,300,400,500]));
+ 
